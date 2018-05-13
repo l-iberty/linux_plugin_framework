@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/l-iberty/os_prg_homework/lab/src/a
+CMAKE_SOURCE_DIR = /home/l-iberty/github/linux_plugin_framework/a
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/l-iberty/os_prg_homework/lab/src/a
+CMAKE_BINARY_DIR = /home/l-iberty/github/linux_plugin_framework/a
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/l-iberty/os_prg_homework/lab/src/a/CMakeFiles /home/l-iberty/os_prg_homework/lab/src/a/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/l-iberty/github/linux_plugin_framework/a/CMakeFiles /home/l-iberty/github/linux_plugin_framework/a/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/l-iberty/os_prg_homework/lab/src/a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/l-iberty/github/linux_plugin_framework/a/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
