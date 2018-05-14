@@ -16,6 +16,15 @@ void run(FILE* fp)
 		printf("<get file line num> error: null pointer\n");
 		return;
 	}
+	
+	int count = 0;
+	
+	while (!feof(fp))
+	{
+	        int ch = fgetc(fp);
+	        if (ch == '\n')
+	                count++;
+	}
 
-	printf("file line num: \n");
+	printf("file line num: %d\n", count);
 }
